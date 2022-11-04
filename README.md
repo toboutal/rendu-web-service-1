@@ -37,7 +37,12 @@ FastApi est une alternative à Flask qui est intéressante car elle permet de g�
 Exercice - veille
 
 Expliquer à quoi sert les méthodes HTTP Put et Patch
+	* PUT, remplace les données par celle qui sont envoyées dans la requête.
+	* PATCH, permet la modification partielle d'une ressource en fusionnant les données envoyées avec les données déjà présentes ou grâce à l'utilisation d'opération de modification.
 
 Que veut dire qu’un protocole soit stateless ?
+Un processus ou une application sans état est indépendant. Il ne stocke pas de données et ne fait référence à aucune transaction passée. Chaque transaction est effectuée à partir de rien, comme si c'était la première fois. Les applications sans état fournissent un service ou une fonction et utilisent un réseau de diffusion de contenu, le web ou des serveurs d'impression pour traiter ces requêtes à court terme. 
 
 Qu’est ce que openAPI et quel est son intérêt ? 
+OpenAPI est une norme de description des interfaces de programmation (API). La spécification OpenAPI définit un format de description ouvert et indépendant pour les services API. Plus particulièrement, OpenAPI permet de décrire, développer, tester et documenter des API conformes à l’architecture REST.
+
