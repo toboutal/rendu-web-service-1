@@ -1,10 +1,10 @@
 # WebService-rendu-1
  
-Exercice 1 - Envoyer des requêtes en tant que client
+##Exercice 1 - Envoyer des requêtes en tant que client
 
 Installer postman et envoyer une requête http à l’URL https://nowledgeable.com/http-exercice
 
-Quel est le type de la donnée renvoyée ?
+###Quel est le type de la donnée renvoyée ?
 
 JSON
 
@@ -16,7 +16,7 @@ Faire de même avec la librairie requests
 
 
 
-Exercice 2 - Faire sa première API 
+##Exercice 2 - Faire sa première API 
 
 On veut faire une petite API qui permet de gérer une liste de tâches. 
 
@@ -34,15 +34,19 @@ FastApi est une alternative à Flask qui est intéressante car elle permet de g�
 
 
 
-Exercice - veille
+##Exercice - veille
 
-Expliquer à quoi sert les méthodes HTTP Put et Patch
-	* PUT, remplace les données par celle qui sont envoyées dans la requête.
-	* PATCH, permet la modification partielle d'une ressource en fusionnant les données envoyées avec les données déjà présentes ou grâce à l'utilisation d'opération de modification.
+###Expliquer à quoi sert les méthodes HTTP Put et Patch
+	
+	PUT, remplace les données par celle qui sont envoyées dans la requête.
+	
+	PATCH, permet la modification partielle d'une ressource en fusionnant les données envoyées avec les données déjà présentes ou grâce à l'utilisation d'opération de modification.
 
-Que veut dire qu’un protocole soit stateless ?
+###Que veut dire qu’un protocole soit stateless ?
+
 Un processus ou une application sans état est indépendant. Il ne stocke pas de données et ne fait référence à aucune transaction passée. Chaque transaction est effectuée à partir de rien, comme si c'était la première fois. Les applications sans état fournissent un service ou une fonction et utilisent un réseau de diffusion de contenu, le web ou des serveurs d'impression pour traiter ces requêtes à court terme. 
 
-Qu’est ce que openAPI et quel est son intérêt ? 
+###Qu’est ce que openAPI et quel est son intérêt ? 
+
 OpenAPI est une norme de description des interfaces de programmation (API). La spécification OpenAPI définit un format de description ouvert et indépendant pour les services API. Plus particulièrement, OpenAPI permet de décrire, développer, tester et documenter des API conformes à l’architecture REST.
 
