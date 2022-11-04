@@ -9,12 +9,14 @@ Installer postman et envoyer une requête http à l’URL https://nowledgeable.c
 		JSON
 
 Avec python et la librairie requests envoyer une requête http à l’url précédente et récupérer la réponse sous forme de dictionnaire
-
+		
+		requests.get("https://nowledgeable.com/http-exercice")
+		
 Avec postman envoyer une requête à l’URL https://nowledgeable.Com/http-exercice2. Faire en sorte que le corps de la requête envoie un json avec la clé “secret” et la valeur 42 (pas sous forme de chaine de caractère)
 
 Faire de même avec la librairie requests
 
-
+		requests.post('https://nowledgeable.Com/http-exercice2', data = {'secret':42})
 
 Exercice 2 - Faire sa première API 
 
